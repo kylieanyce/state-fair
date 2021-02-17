@@ -4,7 +4,7 @@ const eventHub = document.querySelector("#state-fair")
 
 eventHub.addEventListener("rideTicketPurchased", customEvent => {
     console.log("click")
-    contentTarget.innerHTML = `
+    contentTarget.innerHTML += `
         <div class="rider person"></div>
         `
 })
